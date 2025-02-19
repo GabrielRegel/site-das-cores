@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Cores: RGB e CMYK</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .image-placeholder {
+            width: 100%;
+            height: 300px;
+            background-color: #ddd;
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Modelos de Cores: RGB e CMYK</h1>
+    </header>
+    <div class="container">
+        <section>
+            <h2>1. Explicação do Modelo RGB</h2>
+            <h3>1.1 Definição</h3>
+            <p>O modelo RGB é um sistema de cores aditivas que utiliza as cores primárias de luz: Vermelho (Red), Verde (Green) e Azul (Blue). É amplamente utilizado em dispositivos eletrônicos que emitem luz, como monitores de computador, televisores e câmeras digitais.</p>
+            <div class="image-placeholder">
+                <!-- Esta imagem deve mostrar a combinação das cores vermelho, verde e azul formando outras cores -->
+                [Imagem: Combinação de cores RGB]
+            </div>
+            <h3>1.2 Como Funciona</h3>
+            <p>As cores são criadas pela combinação de diferentes intensidades das três cores primárias. Cada cor pode variar em intensidade de 0 a 255, permitindo a criação de uma ampla gama de cores. Por exemplo, a combinação máxima de vermelho e verde (255, 255, 0) resulta na cor amarela.</p>
+            <h3>1.3 Uso Comum</h3>
+            <p>O modelo RGB é ideal para dispositivos que emitem luz diretamente aos olhos do observador, como telas de computadores, televisores e smartphones.</p>
+        </section>
+        <section>
+            <h2>2. Funcionamento do Pixel no RGB</h2>
+            <h3>2.1 Definição de Pixel</h3>
+            <p>Um pixel é a menor unidade controlável de uma imagem digital exibida em uma tela. Cada pixel pode exibir uma cor específica, determinada pela combinação das intensidades de vermelho, verde e azul.</p>
+            <h3>2.2 Composição do Pixel</h3>
+            <p>Cada pixel é composto por três subpixels: vermelho, verde e azul. A intensidade de luz emitida por cada subpixel é ajustada para criar a cor desejada. Por exemplo, se todos os subpixels estiverem em sua intensidade máxima, o pixel exibirá a cor branca; se todos estiverem desligados, exibirá a cor preta.</p>
+            <div class="image-placeholder">
+                <!-- Esta imagem deve ilustrar a estrutura de um pixel com seus subpixels RGB -->
+                [Imagem: Estrutura de um pixel com subpixels RGB]
+            </div>
+        </section>
+        <section>
+            <h2>3. Explicação do Modelo CMYK</h2>
+            <h3>3.1 Definição</h3>
+            <p>O modelo CMYK é um sistema de cores subtrativas que utiliza as cores Ciano (Cyan), Magenta, Amarelo (Yellow) e Preto (Key). É amplamente utilizado em processos de impressão, onde as cores são produzidas pela mistura de tintas.</p>
+            <h3>3.2 Como Funciona</h3>
+            <p>As cores são criadas pela sobreposição de tintas nas cores CMY. A adição de tinta preta (K) é usada para profundidade e contraste, além de economizar tinta colorida. Diferentemente do modelo RGB, que é aditivo, o CMYK é subtrativo, pois as tintas absorvem certas frequências de luz, resultando na percepção de cores específicas.</p>
+            <div class="image-placeholder">
+                <!-- Esta imagem deve mostrar a sobreposição das cores ciano, magenta e amarelo formando outras cores -->
+                [Imagem: Sobreposição de cores CMYK]
+            </div>
+            <h3>3.3 Uso Comum</h3>
+            <p>O modelo CMYK é amplamente utilizado em processos de impressão, como em impressoras domésticas e industriais, onde as cores são produzidas pela mistura de tintas.</p>
+        </section>
+        <section>
+            <h2>4. Comparação entre os Modelos RGB e CMYK</h2>
+            <h3>4.1 Natureza das Cores</h3>
+            <p><strong>RGB</strong>: Modelo aditivo que combina luz para criar cores.</p>
+            <p><strong>CMYK</strong>: Modelo subtrativo que combina tintas que absorvem luz para produzir cores.</p>
+            <h3>4.2 Aplicações</h3>
+            <p><strong>RGB</strong>: Ideal para dispositivos eletrônicos que emitem luz, como monitores e telas de smartphones.</p>
+            <p><strong>CMYK</strong>: Adequado para materiais impressos que refletem luz, como revistas, panfletos e outros materiais gráficos.</p>
+            <h3>4.3 Gama de Cores</h3>
+            <p>O modelo RGB geralmente possui uma gama de cores mais ampla em comparação ao CMYK. Isso significa que algumas cores visíveis em telas podem não ser reproduzidas exatamente em impressão, devido às limitações do processo de mistura de tintas no modelo CMYK.</p>
+            <div class="image-placeholder">
+                <!-- Esta imagem deve comparar as gamas de cores dos modelos RGB e CMYK -->
+                [Imagem: Comparação das gamas de cores RGB e CMYK]
+            </div>
+        </section>
+    </div>
+</body>
+</html>
