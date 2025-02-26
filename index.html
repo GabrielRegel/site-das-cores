@@ -4,35 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modelos de Cores: RGB e CMYK</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Merriweather', serif;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
+            line-height: 1.8;
         }
         header {
-            background-color: #333;
+            background-color: #343a40;
             color: #fff;
-            padding: 10px 0;
+            padding: 20px 0;
             text-align: center;
         }
         .container {
             padding: 20px;
         }
         h1, h2, h3 {
-            color: #333;
+            color: #343a40;
+            margin-top: 20px;
         }
-        .image-placeholder {
+        h2 {
+            font-weight: bold;
+        }
+        h3 {
+            font-weight: bold;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        .image-placeholder img {
             width: 100%;
-            height: 300px;
-            background-color: #ddd;
+            height: auto;
             margin: 20px 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #666;
-            font-style: italic;
         }
     </style>
 </head>
@@ -42,41 +48,84 @@
     </header>
     <div class="container">
         <section>
+            <h2>Informações do Projeto</h2>
+            <p><strong>Nome: Gabriel Regel</strong></p>
+            <p><strong>Harmonia Cromática Escolhida:</strong> Complementar</p>
+            <p><strong>Cores da Paleta Utilizada:</strong> Azul (#007BFF) e Laranja (#FF5733)</p>
+        </section>
+        <section>
+            <h2>Explicação sobre Círculo Cromático</h2>
+            <p>O círculo cromático é uma representação visual das cores organizadas de acordo com a sua tonalidade. Ele é usado para ilustrar as relações entre as cores primárias, secundárias e terciárias.</p>
+        </section>
+        <section>
+            <h2>Harmonias Cromáticas</h2>
+            <p>As harmonias cromáticas são combinações de cores que são agradáveis ao olho humano. Existem várias harmonias cromáticas, incluindo:</p>
+            <ul>
+                <li><strong>Complementar:</strong> Cores opostas no círculo cromático.</li>
+                <li><strong>Análoga:</strong> Cores adjacentes no círculo cromático.</li>
+                <li><strong>Tríade:</strong> Três cores equidistantes no círculo cromático.</li>
+                <li><strong>Tetrádica:</strong> Quatro cores formam um retângulo no círculo cromático.</li>
+                <li><strong>Monocromática:</strong> Variações de uma única cor.</li>
+                <li><strong>Complementar Dividida:</strong> Uma cor e as duas cores adjacentes à sua complementar.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Escolha das Cores dos Elementos do Site</h2>
+            <p>Para escolher as cores dos elementos do site, considere as seguintes diretrizes:</p>
+            <ul>
+                <li><strong>Cabeçalhos:</strong> Use cores fortes e contrastantes para destacar.</li>
+                <li><strong>Parágrafos:</strong> Use cores neutras para facilitar a leitura.</li>
+                <li><strong>Bordas:</strong> Use cores complementares para destacar seções.</li>
+                <li><strong>Listas:</strong> Use cores análogas para uma aparência harmoniosa.</li>
+                <li><strong>Links:</strong> Use cores que se destacam, como azul ou laranja.</li>
+                <li><strong>Tabelas:</strong> Use cores suaves para o fundo e cores fortes para os cabeçalhos.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Ferramentas para Escolher Paletas</h2>
+            <p>Aqui estão algumas ferramentas úteis para escolher paletas de cores:</p>
+            <ul>
+                <li><a href="https://color.adobe.com/">Adobe Color</a></li>
+                <li><a href="https://coolors.co/">Coolors</a></li>
+                <li><a href="https://paletton.com/">Paletton</a></li>
+                <li><a href="https://www.canva.com/colors/color-palette-generator/">Canva Color Palette Generator</a></li>
+                <li><a href="https://www.color-hex.com/">Color Hex</a></li>
+                <li><a href="https://www.sessions.edu/color-calculator/">Sessions Color Calculator</a></li>
+            </ul>
+        </section>
+        <section>
             <h2>1. Explicação do Modelo RGB</h2>
             <h3>1.1 Definição</h3>
-            <p>O modelo RGB é um sistema de cores aditivas que utiliza as cores primárias de luz: Vermelho (Red), Verde (Green) e Azul (Blue). É amplamente utilizado em dispositivos eletrônicos que emitem luz, como monitores de computador, televisores e câmeras digitais.</p>
+            <p><strong>O modelo RGB</strong> é um sistema de cores aditivas que utiliza as cores primárias de luz: Vermelho (Red), Verde (Green) e Azul (Blue). É amplamente utilizado em dispositivos eletrônicos que emitem luz, como monitores de computador, televisores e câmeras digitais.</p>
             <div class="image-placeholder">
-                <!-- Esta imagem deve mostrar a combinação das cores vermelho, verde e azul formando outras cores -->
-                [Imagem: Combinação de cores RGB]
+                <img src="/Img/coresjuntas.jpg" alt="Imagem: Combinação de cores RGB">
             </div>
             <h3>1.2 Como Funciona</h3>
-            <p>As cores são criadas pela combinação de diferentes intensidades das três cores primárias. Cada cor pode variar em intensidade de 0 a 255, permitindo a criação de uma ampla gama de cores. Por exemplo, a combinação máxima de vermelho e verde (255, 255, 0) resulta na cor amarela.</p>
+            <p><strong>As cores</strong> são criadas pela combinação de diferentes intensidades das três cores primárias. Cada cor pode variar em intensidade de 0 a 255, permitindo a criação de uma ampla gama de cores. Por exemplo, a combinação máxima de vermelho e verde (255, 255, 0) resulta na cor amarela.</p>
             <h3>1.3 Uso Comum</h3>
-            <p>O modelo RGB é ideal para dispositivos que emitem luz diretamente aos olhos do observador, como telas de computadores, televisores e smartphones.</p>
+            <p><strong>O modelo RGB</strong> é ideal para dispositivos que emitem luz diretamente aos olhos do observador, como telas de computadores, televisores e smartphones.</p>
         </section>
         <section>
             <h2>2. Funcionamento do Pixel no RGB</h2>
             <h3>2.1 Definição de Pixel</h3>
-            <p>Um pixel é a menor unidade controlável de uma imagem digital exibida em uma tela. Cada pixel pode exibir uma cor específica, determinada pela combinação das intensidades de vermelho, verde e azul.</p>
+            <p><strong>Um pixel</strong> é a menor unidade controlável de uma imagem digital exibida em uma tela. Cada pixel pode exibir uma cor específica, determinada pela combinação das intensidades de vermelho, verde e azul.</p>
             <h3>2.2 Composição do Pixel</h3>
-            <p>Cada pixel é composto por três subpixels: vermelho, verde e azul. A intensidade de luz emitida por cada subpixel é ajustada para criar a cor desejada. Por exemplo, se todos os subpixels estiverem em sua intensidade máxima, o pixel exibirá a cor branca; se todos estiverem desligados, exibirá a cor preta.</p>
+            <p><strong>Cada pixel</strong> é composto por três subpixels: vermelho, verde e azul. A intensidade de luz emitida por cada subpixel é ajustada para criar a cor desejada. Por exemplo, se todos os subpixels estiverem em sua intensidade máxima, o pixel exibirá a cor branca; se todos estiverem desligados, exibirá a cor preta.</p>
             <div class="image-placeholder">
-                <!-- Esta imagem deve ilustrar a estrutura de um pixel com seus subpixels RGB -->
-                [Imagem: Estrutura de um pixel com subpixels RGB]
+                <img src="/Img/tresPixeis.png" alt="Estrutura de um pixel com subpixels RGB">
             </div>
         </section>
         <section>
             <h2>3. Explicação do Modelo CMYK</h2>
             <h3>3.1 Definição</h3>
-            <p>O modelo CMYK é um sistema de cores subtrativas que utiliza as cores Ciano (Cyan), Magenta, Amarelo (Yellow) e Preto (Key). É amplamente utilizado em processos de impressão, onde as cores são produzidas pela mistura de tintas.</p>
+            <p><strong>O modelo CMYK</strong> é um sistema de cores subtrativas que utiliza as cores Ciano (Cyan), Magenta, Amarelo (Yellow) e Preto (Key). É amplamente utilizado em processos de impressão, onde as cores são produzidas pela mistura de tintas.</p>
             <h3>3.2 Como Funciona</h3>
-            <p>As cores são criadas pela sobreposição de tintas nas cores CMY. A adição de tinta preta (K) é usada para profundidade e contraste, além de economizar tinta colorida. Diferentemente do modelo RGB, que é aditivo, o CMYK é subtrativo, pois as tintas absorvem certas frequências de luz, resultando na percepção de cores específicas.</p>
+            <p><strong>As cores</strong> são criadas pela sobreposição de tintas nas cores CMY. A adição de tinta preta (K) é usada para profundidade e contraste, além de economizar tinta colorida. Diferentemente do modelo RGB, que é aditivo, o CMYK é subtrativo, pois as tintas absorvem certas frequências de luz, resultando na percepção de cores específicas.</p>
             <div class="image-placeholder">
-                <!-- Esta imagem deve mostrar a sobreposição das cores ciano, magenta e amarelo formando outras cores -->
-                [Imagem: Sobreposição de cores CMYK]
+                <img src="Img/CMYk.png" alt="Imagem: Sobreposição de cores CMYK">                
             </div>
             <h3>3.3 Uso Comum</h3>
-            <p>O modelo CMYK é amplamente utilizado em processos de impressão, como em impressoras domésticas e industriais, onde as cores são produzidas pela mistura de tintas.</p>
+            <p><strong>O modelo CMYK</strong> é amplamente utilizado em processos de impressão, como em impressoras domésticas e industriais, onde as cores são produzidas pela mistura de tintas.</p>
         </section>
         <section>
             <h2>4. Comparação entre os Modelos RGB e CMYK</h2>
@@ -87,12 +136,14 @@
             <p><strong>RGB</strong>: Ideal para dispositivos eletrônicos que emitem luz, como monitores e telas de smartphones.</p>
             <p><strong>CMYK</strong>: Adequado para materiais impressos que refletem luz, como revistas, panfletos e outros materiais gráficos.</p>
             <h3>4.3 Gama de Cores</h3>
-            <p>O modelo RGB geralmente possui uma gama de cores mais ampla em comparação ao CMYK. Isso significa que algumas cores visíveis em telas podem não ser reproduzidas exatamente em impressão, devido às limitações do processo de mistura de tintas no modelo CMYK.</p>
+            <p><strong>O modelo RGB</strong> geralmente possui uma gama de cores mais ampla em comparação ao CMYK. Isso significa que algumas cores visíveis em telas podem não ser reproduzidas exatamente em impressão, devido às limitações do processo de mistura de tintas no modelo CMYK.</p>
             <div class="image-placeholder">
-                <!-- Esta imagem deve comparar as gamas de cores dos modelos RGB e CMYK -->
-                [Imagem: Comparação das gamas de cores RGB e CMYK]
+                <img src="/Img/nemSeiMais.png" alt="Comparação das gamas de cores RGB e CMYK">
             </div>
         </section>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
