@@ -77,9 +77,9 @@ O site contém as seguintes seções:
 
 ## Autor
 
-- Nome do Autor: [Seu Nome]
-- Instituição de Ensino: [Nome da Instituição]
+- Nome do Autor: Gabriel Regel
+- Instituição de Ensino: CCM Unidade Polo
 
-## Licença
+## Creditos
 
-Este projeto é licenciado sob a [Nome da Licença].
+- o site em si foi gerado por IA, porem todas perguntas e fotos foram retiradas do google
