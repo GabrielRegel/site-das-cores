@@ -1,0 +1,40 @@
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #343a40;
+    margin-top: 20px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.image-placeholder img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
