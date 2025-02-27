@@ -1,15 +1,31 @@
+:root {
+    /* Definindo as cores principais como variáveis */
+    --cor-fundo: #fff;
+    --cor-texto: #000;
+    --cor-header: #000;
+    --cor-header-texto: #fff;
+    --cor-borda-imagem: #000;
+    --cor-titulo: #000;
+}
+
 body {
     font-family: 'Merriweather', serif;
     margin: 0;
     padding: 0;
     line-height: 1.8;
+    background-color: var(--cor-fundo); /* Usando a variável para fundo */
+    color: var(--cor-texto); /* Usando a variável para texto */
 }
 
 header {
-    background-color: #343a40;
-    color: #fff;
+    background-color: var(--cor-header); /* Usando a variável para fundo do cabeçalho */
+    color: var(--cor-header-texto); /* Usando a variável para o texto do cabeçalho */
     padding: 20px 0;
     text-align: center;
+}
+
+header h1 {
+    color: var(--cor-header-texto); /* Garantir que o título do cabeçalho seja branco */
 }
 
 .container {
@@ -17,15 +33,11 @@ header {
 }
 
 h1, h2, h3 {
-    color: #343a40;
+    color: var(--cor-titulo); /* Usando a variável para títulos */
     margin-top: 20px;
 }
 
-h2 {
-    font-weight: bold;
-}
-
-h3 {
+h2, h3 {
     font-weight: bold;
 }
 
@@ -37,4 +49,5 @@ p {
     width: 100%;
     height: auto;
     margin: 20px 0;
+    border: 2px solid var(--cor-borda-imagem); /* Usando a variável para borda das imagens */
 }
